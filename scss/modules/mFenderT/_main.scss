@@ -1,0 +1,156 @@
+ main {
+    background-color: $bg-color-main;
+
+    .textoMostSold {
+        text-align: center;
+        color: white;
+    }
+
+     .contenedorGuitar {
+        justify-content: space-between;
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 400px;
+        height: 400px;
+    }
+
+     .card {
+         text-align: center;
+         height:100%;
+         margin:3%;
+         padding:3%;
+     }
+
+     .card-title {
+         margin-top: 3%;
+     }
+
+     .contenedorNewsletter {
+        background-color:$color-terciario;
+        width: 100%;
+        padding-top: 1%;
+        padding-bottom: 1.5%;
+        margin-top: 3%;
+    }
+
+    .textoNews {
+        padding-left: 39%;
+        color: white;
+    }
+    
+    .textoCorreo {
+        padding-left: 39%;
+        color: white;
+    }
+
+ }
+
+ /* CLASES DE PAGINAS DE GUITARRA */
+
+.tituloGuitarra{
+    padding-left: 17.5%;
+    padding-top: 1.5%;
+    margin-bottom: 1.4%;
+    color:white;
+}
+
+.imgGuitarra{
+    margin-left: 5%;
+    border: solid black 5px;
+    position:static;
+}
+
+.infoGuitarra{
+    padding-left: 30%;
+    color:white;
+    font-size: 1.2rem;
+    margin-top: 6%;
+}
+
+.textoBuyNow{
+    padding-left: 17.5%;
+    color:white;
+}
+
+@media (max-width: 576px){
+
+    .contenedorHeader{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #2B3035;
+    }
+
+    .responsiveCarousel{
+        text-align: center;
+        align-items: center;
+    }
+
+    .textoMostSold {
+        padding-left: 0%;
+        color: white;
+        text-align: center;
+    }
+
+    .contenedorGuitar{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .textoVarios {
+        padding-left: 5%;
+        color: white;
+    }
+
+    .textoNews {
+        padding-left: 0%;
+        color: white;
+    }
+    
+    .textoCorreo {
+        padding-left: 10%;
+        color: white;
+    }
+
+/* CLASES DE SITIOS DE GUITARRAS */
+
+    .infoGuitarra{
+        padding-left: 0%;
+        margin-top: 5%;
+        color:white;
+        font-size: 1rem;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .tituloGuitarra{
+        padding-left: 12%;
+        color:white;
+    }
+    .imgGuitarra{
+        margin-left: 0%;
+        border: solid black 5px;
+    
+    }
+    
+    .textoBuyNow{
+        padding-left: 0%;
+        color:white;	
+    }
+
+    .margenGuitar {
+        margin-bottom: 5%;
+    }
+    
+    .hideOnSmallScreen {
+        display: none;
+    }
+      
+}
+
+      @media (min-width: 577px) {
+    .hideOnBigScreen {
+    display: none;
+    }
+}

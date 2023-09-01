@@ -1,0 +1,154 @@
+main {
+    background-image: url(.../assets/fondoAboutUs.webp);
+
+     .contenedorNewsletter {
+        background-color:$color-terciario;
+        width: 100%;
+        padding-top: 1%;
+        padding-bottom: 1.5%;
+        margin-top: 3%;
+    }
+
+    .textoNews {
+        padding-left: 39%;
+        color: white;
+    }
+    
+    .textoCorreo {
+        padding-left: 39%;
+        color: white;
+    }
+
+ }
+
+.cardNA {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rowNA {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10%;
+}
+
+.tituloSuperiorNA {
+    color:white;
+    height: 22%;
+    text-align: center;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.newDates {
+    color: black;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2.7rem;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+    
+}
+
+.textoNA {
+    padding-bottom: 5%;
+    font-size: 1.8rem;
+    padding-top: 2%;
+}
+
+.textoNADos {
+    padding-bottom: 2%;
+    padding-top: 2%;
+    font-size: 1.5rem;
+    }
+
+.contenedorNABlanco {
+    padding-top :5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+    border-radius: .3rem !important;
+}
+
+.contenedorNAAzul {
+    padding-top :3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #016A92;
+    border-radius: .3rem !important;
+    color:white;
+}
+
+.contenedorGuitar {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    justify-content: center;
+}
+
+ .card {
+     text-align: center;
+     padding-bottom: 10%;
+     height:120%;
+     width: 10%;
+ }
+
+ .card-title {
+     margin-top: 3%;
+ }
+
+
+@media (max-width: 576px){
+
+    .contenedorHeader{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #2B3035;
+    }
+
+    .responsiveCarousel{
+        text-align: center;
+        align-items: center;
+    }
+
+    .textoMostSold {
+        padding-left: 0%;
+        color: white;
+        text-align: center;
+    }
+
+    .contenedorGuitar{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .textoVarios {
+        padding-left: 5%;
+        color: white;
+    }
+
+    .textoNews {
+        padding-left: 0%;
+        color: white;
+    }
+    
+    .textoCorreo {
+        padding-left: 10%;
+        color: white;
+    }
+}

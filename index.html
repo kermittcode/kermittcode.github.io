@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1337Guitars - Music Fountain</title>
+  <meta 
+        name="description" 
+        content="Find the best guitar deals at 1337 Guitars, your source of the best quality instruments at the best price."
+      />
+      <meta
+        name="keywords"
+        content="guitar, store, fender, gibson, ibanez, prs, deals, discount, instruments, music"
+/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+       
+        <div class="contenedorHeader">
+            <div class="row rowHeader">
+             <!-- Logo main menu -->
+        <div class="fotoLogo col-2">
+            <img src="./assets/icons/apple-touch-icon.png" alt="Logo 1337Guitars" class="fotoLogo"
+            width="100%" 
+            height="100%"
+            />
+        </div>
+            <!-- Navbar main menu -->
+              <nav class="navbar bg-dark border-bottom border-body contenedorHeader navbar-expand-lg bg-body-tertiary col-10" data-bs-theme="dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="./index.html">1337 Guitars</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/newArrivals.html">New Arrivals</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/stores.html">Stores</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/brands.html">Brands</a>
+                      </li>
+                      <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>                  
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+    </header>
+
+    <main> 
+        <!-- Carrusel de marcas -->
+        <div id="carouselExampleIndicators" class="carousel slide responsiveCarousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/fender.webp" class="d-block w-100" alt="Fender slide">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/gibsonguitars.webp" class="d-block w-100" alt="Gibson slide">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/prsguitars.webp" class="d-block w-100" alt="PRS slide">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <hr class="hr" />
+          <!-- Guitarras mas vendidas -->
+
+          <h1 class="textoMostSold">Most Sold</h1>
+          <hr class="hr" />
+          <div class="row rowGuitar gx-0" class="contenedorGuitar">
+            <div class="col-lg-3 col-sm-10" class="contenedorGuitar">
+              <div class="card">
+                <img src="./assets/telecaster1111.webp" class="card-img-top" alt="Fender Telecaster">
+                  <div class="card-body">
+                      <h5 class="card-title">American Standard Telecaster</h5>
+                    <a href="./pages/fenderTelecaster.html" class="stretched-link"></a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-lg-3 col-sm-10" class="contenedorGuitar">
+              <div class="card">
+              <img src="./assets/lespaul.webp" class="card-img-top" alt="Gibson Les Paul">
+                <div class="card-body">
+                  <h5 class="card-title">Gibson Les Paul Heritage</h5>
+                  <a href="./pages/gibsonLesPaul.html" class="stretched-link"></a>
+                </div>
+              </div>
+            </div>
+            
+              <div class="col-lg-3 col-sm-10">
+              <div class="card">
+                <img src="./assets/IBANEZ.webp" class="card-img-top" alt="Ibanez RG350DXZ">
+                <div class="card-body">
+                  <h5 class="card-title">Ibanez RG350DXZ</h5>
+                  <a href="./pages/ibanez.html" class="stretched-link"></a>
+                </div>
+              </div>
+            </div>
+            
+              <div class="col-lg-3 col-sm-10">
+              <div class="card">
+                <img src="./assets/PRS.webp" class="card-img-top" alt="PRS SE Custom 24-08">
+                <div class="card-body">
+                  <h5 class="card-title">PRS SE Custom 24-08</h5>
+                  <a href="./pages/prs.html" class="stretched-link"></a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+    
+    <!-- Newsletter -->
+    <div class="contenedorNewsletter">
+    <p class="textoNews">Subscribe to our Newsletter!</p>
+    <form class="textoCorreo" action="correo.php" method="POST" enctype="text/plain">
+    <div>
+    <label for="email" class="textoEnterEmail">Enter your email</label>
+    <input type="email" id="email"/>
+    <input type="submit" value="Subscribe"/>
+    </div>
+    </form>
+    </div>
+    
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footerBar">
+      <a href="http://www.instagram.com">
+        <img target="_blank" src="./assets/minimalist-instagram-icon-26-3372645709.webp" alt="Logo IG"
+        width="90px"    
+        height="90px"
+        />
+    
+        <a href="http://www.facebook.com">
+        <img target="_blank" src="./assets/face.webp" alt="Logo FB"
+        width="90px"    
+        height="90px"
+        />
+    
+        <a href="http://www.youtube.com">
+        <img target="_blank" src="./assets/395125-328232108.webp" alt="Logo YT" 
+        width="90px"    
+        height="60px"
+    />
+
+        <div>
+          <a href="./pages/aboutUs.html" class="textoFooter">
+          <h4>About Us</h4>
+        </div>
+
+        <div>
+          <a href="./pages/customerService.html" class="textoFooter">
+          <h4>Customer Service</h4>
+        </div>
+          
+    </footer>  
+
+  <!-- Script del bootstrap -->
+</body>
+</html>

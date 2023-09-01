@@ -1,0 +1,42 @@
+header {
+
+    nav {
+        ul {
+            padding-top: 1%;
+            font-size:$fontsize-navbar;
+            text-align: right;
+            justify-content: space-between;
+        }
+    }
+
+    .contenedorHeader {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: $color-secundario;
+       }
+
+    .fotoLogo {
+        border-radius: 50%;
+        }
+
+    .navbar-brand {
+        font-size: $fontsize-main;
+        font-weight: bold;
+    }
+    .rowHeader {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0%;
+    }
+}
+
+@media (max-width: 576px){
+
+    .contenedorHeader{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: $color-secundario;
+    }
+}

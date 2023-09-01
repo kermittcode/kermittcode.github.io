@@ -1,0 +1,131 @@
+ main {
+    background-image: url(.../assets/fondoAboutUs.webp);
+
+     .contenedorNewsletter {
+        background-color:$color-terciario;
+        width: 100%;
+        padding-top: 1%;
+        padding-bottom: 1.5%;
+        margin-top: 3%;
+    }
+
+    .textoNews {
+        padding-left: 39%;
+        color: white;
+    }
+    
+    .textoCorreo {
+        padding-left: 39%;
+        color: white;
+    }
+
+ }
+
+ .tituloAboutUs {
+    padding-top: 1%;
+    text-align: center;
+    padding-bottom: 1.5%;
+}   
+
+.tituloSuperiorAU {
+    color:white;
+    height: 22%;
+    text-align: center;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+.textoAU {
+    padding-bottom: 5%;
+    font-size: 1.5rem;
+    padding-top: 2%;
+}
+
+.textoAUDos {
+    padding-bottom: 2%;
+    padding-top: 8%;
+    font-size: 1.5rem;
+    }
+
+.textoAUTres {
+    padding-bottom: 2%;
+    padding-top: 5%;
+    font-size: 1.5rem;
+}
+
+.contenedorAUBlanco {
+    padding-top :5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+    border-radius: .3rem !important;
+}
+
+.contenedorAUAzul {
+    padding-top :5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3.3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    // background-image: url(.../assets/fondoAboutUs.webp);
+    background-color: #016A92;
+    border-radius: .3rem !important;
+    color:white;
+}
+
+// .imagenGuitarraAboutUs {
+//     PEND
+// }
+
+
+
+@media (max-width: 576px){
+
+    .contenedorHeader{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #2B3035;
+    }
+
+    .responsiveCarousel{
+        text-align: center;
+        align-items: center;
+    }
+
+    .textoMostSold {
+        padding-left: 0%;
+        color: white;
+        text-align: center;
+    }
+
+    .contenedorGuitar{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .textoVarios {
+        padding-left: 5%;
+        color: white;
+    }
+
+    .textoNews {
+        padding-left: 0%;
+        color: white;
+    }
+    
+    .textoCorreo {
+        padding-left: 10%;
+        color: white;
+    }
+}

@@ -1,0 +1,1348 @@
+header nav ul {
+  padding-top: 1%;
+  font-size: 1.5rem;
+  text-align: right;
+  justify-content: space-between;
+}
+header .contenedorHeader {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #2B3035;
+}
+header .fotoLogo {
+  border-radius: 50%;
+}
+header .navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+header .rowHeader {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0%;
+}
+
+@media (max-width: 576px) {
+  .contenedorHeader {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #2B3035;
+  }
+}
+footer {
+  background-color: black;
+  text-align: center;
+}
+
+.footerBar {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.textoFooter {
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  height: 100%;
+}
+
+main {
+  background-image: url(.../assets/fondoAboutUs.webp);
+}
+main .contenedorNewsletter {
+  background-color: #525252;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1.5%;
+  margin-top: 3%;
+}
+main .textoNews {
+  padding-left: 39%;
+  color: white;
+}
+main .textoCorreo {
+  padding-left: 39%;
+  color: white;
+}
+
+.cardBrands {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rowBrands {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10%;
+}
+
+.tituloSuperiorBr {
+  color: white;
+  height: 22%;
+  text-align: center;
+  align-items: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.textoBrands {
+  padding-bottom: 5%;
+  font-size: 1.8rem;
+  padding-top: 2%;
+}
+
+.textoBrandsDos {
+  padding-bottom: 2%;
+  padding-top: 2%;
+  font-size: 1.5rem;
+}
+
+.contenedorBrandsBlanco {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  background-color: white;
+  border-radius: 0.3rem !important;
+}
+
+.contenedorBrandsAzul {
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 0%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #016A92;
+  border-radius: 0.3rem !important;
+  color: white;
+}
+
+.contenedorGuitar {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 5%;
+  text-align: center;
+  justify-content: center;
+}
+
+.card {
+  text-align: center;
+  padding-bottom: 10%;
+  height: 120%;
+  width: 10%;
+}
+
+.card-title {
+  margin-top: 3%;
+}
+
+@media (max-width: 576px) {
+  .contenedorHeader {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #2B3035;
+  }
+  .responsiveCarousel {
+    text-align: center;
+    align-items: center;
+  }
+  .textoMostSold {
+    padding-left: 0%;
+    color: white;
+    text-align: center;
+  }
+  .contenedorGuitar {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .textoVarios {
+    padding-left: 5%;
+    color: white;
+  }
+  .textoNews {
+    padding-left: 0%;
+    color: white;
+  }
+  .textoCorreo {
+    padding-left: 10%;
+    color: white;
+  }
+}
+main {
+  background-image: url(.../assets/fondoAboutUs.webp);
+}
+main .contenedorNewsletter {
+  background-color: #525252;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1.5%;
+  margin-top: 3%;
+}
+main .textoNews {
+  padding-left: 39%;
+  color: white;
+}
+main .textoCorreo {
+  padding-left: 39%;
+  color: white;
+}
+
+.tituloAboutUs {
+  padding-top: 1%;
+  text-align: center;
+  padding-bottom: 1.5%;
+}
+
+.tituloSuperiorAU {
+  color: white;
+  height: 22%;
+  text-align: center;
+  align-items: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.textoAU {
+  padding-bottom: 5%;
+  font-size: 1.5rem;
+  padding-top: 2%;
+}
+
+.textoAUDos {
+  padding-bottom: 2%;
+  padding-top: 8%;
+  font-size: 1.5rem;
+}
+
+.textoAUTres {
+  padding-bottom: 2%;
+  padding-top: 5%;
+  font-size: 1.5rem;
+}
+
+.contenedorAUBlanco {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  background-color: white;
+  border-radius: 0.3rem !important;
+}
+
+.contenedorAUAzul {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 3.3%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  background-color: #016A92;
+  border-radius: 0.3rem !important;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .contenedorHeader {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #2B3035;
+  }
+  .responsiveCarousel {
+    text-align: center;
+    align-items: center;
+  }
+  .textoMostSold {
+    padding-left: 0%;
+    color: white;
+    text-align: center;
+  }
+  .contenedorGuitar {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .textoVarios {
+    padding-left: 5%;
+    color: white;
+  }
+  .textoNews {
+    padding-left: 0%;
+    color: white;
+  }
+  .textoCorreo {
+    padding-left: 10%;
+    color: white;
+  }
+}
+main {
+  background-image: url(.../assets/fondoAboutUs.webp);
+}
+main .contenedorNewsletter {
+  background-color: #525252;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1.5%;
+  margin-top: 3%;
+}
+main .textoNews {
+  padding-left: 39%;
+  color: white;
+}
+main .textoCorreo {
+  padding-left: 39%;
+  color: white;
+}
+
+.tituloSuperiorCS {
+  color: white;
+  height: 22%;
+  text-align: center;
+  align-items: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.textoCS {
+  padding-bottom: 5%;
+  font-size: 1.8rem;
+  padding-top: 2%;
+}
+
+.textoCSDos {
+  padding-bottom: 2%;
+  padding-top: 2%;
+  font-size: 1.5rem;
+}
+
+.contenedorCSBlanco {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  background-color: white;
+  border-radius: 0.3rem !important;
+}
+
+.contenedorCSAzul {
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 0%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #016A92;
+  border-radius: 0.3rem !important;
+  color: white;
+}
+
+.paddingAssistYou {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 19%;
+}
+
+.paddingAssistThings {
+  padding-bottom: 3%;
+  padding-left: 25%;
+}
+
+.paddingAssistUltimo {
+  padding-left: 25%;
+}
+
+.imgCustomerS {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  margin-top: 20%;
+}
+
+.tablaImageText {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  margin-top: 3%;
+}
+
+.textoCustomerS {
+  padding-left: 10%;
+  font-size: 1.2rem;
+  width: 600px;
+}
+
+@media (max-width: 576px) {
+  .contenedorHeader {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #2B3035;
+  }
+  .responsiveCarousel {
+    text-align: center;
+    align-items: center;
+  }
+  .textoMostSold {
+    padding-left: 0%;
+    color: white;
+    text-align: center;
+  }
+  .contenedorGuitar {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .textoVarios {
+    padding-left: 5%;
+    color: white;
+  }
+  .textoNews {
+    padding-left: 0%;
+    color: white;
+  }
+  .textoCorreo {
+    padding-left: 10%;
+    color: white;
+  }
+}
+main {
+  background-color: #23536D;
+}
+main .textoMostSold {
+  text-align: center;
+  color: white;
+}
+main .contenedorGuitar {
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 400px;
+  height: 400px;
+}
+main .card {
+  text-align: center;
+  height: 100%;
+  margin: 3%;
+  padding: 3%;
+}
+main .card-title {
+  margin-top: 3%;
+}
+main .contenedorNewsletter {
+  background-color: #525252;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1.5%;
+  margin-top: 3%;
+}
+main .textoNews {
+  padding-left: 39%;
+  color: white;
+}
+main .textoCorreo {
+  padding-left: 39%;
+  color: white;
+}
+
+/* CLASES DE PAGINAS DE GUITARRA */
+.tituloGuitarra {
+  padding-left: 17.5%;
+  padding-top: 1.5%;
+  margin-bottom: 1.4%;
+  color: white;
+}
+
+.imgGuitarra {
+  margin-left: 5%;
+  border: solid black 5px;
+  position: static;
+}
+
+.infoGuitarra {
+  padding-left: 30%;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 6%;
+}
+
+.textoBuyNow {
+  padding-left: 17.5%;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .contenedorHeader {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #2B3035;
+  }
+  .responsiveCarousel {
+    text-align: center;
+    align-items: center;
+  }
+  .textoMostSold {
+    padding-left: 0%;
+    color: white;
+    text-align: center;
+  }
+  .contenedorGuitar {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .textoVarios {
+    padding-left: 5%;
+    color: white;
+  }
+  .textoNews {
+    padding-left: 0%;
+    color: white;
+  }
+  .textoCorreo {
+    padding-left: 10%;
+    color: white;
+  }
+  /* CLASES DE SITIOS DE GUITARRAS */
+  .infoGuitarra {
+    padding-left: 0%;
+    margin-top: 5%;
+    color: white;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .tituloGuitarra {
+    padding-left: 12%;
+    color: white;
+  }
+  .imgGuitarra {
+    margin-left: 0%;
+    border: solid black 5px;
+  }
+  .textoBuyNow {
+    padding-left: 0%;
+    color: white;
+  }
+  .margenGuitar {
+    margin-bottom: 5%;
+  }
+  .hideOnSmallScreen {
+    display: none;
+  }
+}
+@media (min-width: 577px) {
+  .hideOnBigScreen {
+    display: none;
+  }
+}
+main {
+  background-color: #23536D;
+}
+main .textoMostSold {
+  text-align: center;
+  color: white;
+}
+main .contenedorGuitar {
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 400px;
+  height: 400px;
+}
+main .card {
+  text-align: center;
+  height: 100%;
+  margin: 3%;
+  padding: 3%;
+}
+main .card-title {
+  margin-top: 3%;
+}
+main .contenedorNewsletter {
+  background-color: #525252;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1.5%;
+  margin-top: 3%;
+}
+main .textoNews {
+  padding-left: 39%;
+  color: white;
+}
+main .textoCorreo {
+  padding-left: 39%;
+  color: white;
+}
+
+/* CLASES DE PAGINAS DE GUITARRA */
+.tituloGuitarra {
+  padding-left: 17.5%;
+  padding-top: 1.5%;
+  margin-bottom: 1.4%;
+  color: white;
+}
+
+.imgGuitarra {
+  margin-left: 5%;
+  border: solid black 5px;
+  position: static;
+}
+
+.infoGuitarra {
+  padding-left: 30%;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 6%;
+}
+
+.textoBuyNow {
+  padding-left: 17.5%;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .contenedorHeader {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #2B3035;
+  }
+  .responsiveCarousel {
+    text-align: center;
+    align-items: center;
+  }
+  .textoMostSold {
+    padding-left: 0%;
+    color: white;
+    text-align: center;
+  }
+  .contenedorGuitar {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .textoVarios {
+    padding-left: 5%;
+    color: white;
+  }
+  .textoNews {
+    padding-left: 0%;
+    color: white;
+  }
+  .textoCorreo {
+    padding-left: 10%;
+    color: white;
+  }
+  /* CLASES DE SITIOS DE GUITARRAS */
+  .infoGuitarra {
+    padding-left: 0%;
+    margin-top: 5%;
+    color: white;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .tituloGuitarra {
+    align-items: center;
+    color: white;
+  }
+  .imgGuitarra {
+    margin-left: 0%;
+    border: solid black 5px;
+  }
+  .textoBuyNow {
+    padding-left: 0%;
+    color: white;
+  }
+  .margenGuitar {
+    margin-bottom: 5%;
+  }
+  .hideOnSmallScreen {
+    display: none;
+  }
+}
+@media (min-width: 577px) {
+  .hideOnBigScreen {
+    display: none;
+  }
+}
+main {
+  background-color: #23536D;
+}
+main .textoMostSold {
+  text-align: center;
+  color: white;
+}
+main .contenedorGuitar {
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 400px;
+  height: 400px;
+}
+main .card {
+  text-align: center;
+  height: 100%;
+  margin: 3%;
+  padding: 3%;
+}
+main .card-title {
+  margin-top: 3%;
+}
+main .contenedorNewsletter {
+  background-color: #525252;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1.5%;
+  margin-top: 3%;
+}
+main .textoNews {
+  padding-left: 39%;
+  color: white;
+}
+main .textoCorreo {
+  padding-left: 39%;
+  color: white;
+}
+
+/* CLASES DE PAGINAS DE GUITARRA */
+.tituloGuitarra {
+  padding-left: 17.5%;
+  padding-top: 1.5%;
+  margin-bottom: 1.4%;
+  color: white;
+}
+
+.imgGuitarra {
+  margin-left: 5%;
+  border: solid black 5px;
+  position: static;
+}
+
+.infoGuitarra {
+  padding-left: 30%;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 0%;
+}
+
+.textoBuyNow {
+  padding-left: 17.5%;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .contenedorHeader {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #2B3035;
+  }
+  .responsiveCarousel {
+    text-align: center;
+    align-items: center;
+  }
+  .textoMostSold {
+    padding-left: 0%;
+    color: white;
+    text-align: center;
+  }
+  .contenedorGuitar {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .textoVarios {
+    padding-left: 5%;
+    color: white;
+  }
+  .textoNews {
+    padding-left: 0%;
+    color: white;
+  }
+  .textoCorreo {
+    padding-left: 10%;
+    color: white;
+  }
+  /* CLASES DE SITIOS DE GUITARRAS */
+  .infoGuitarra {
+    padding-left: 0%;
+    margin-top: 5%;
+    color: white;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .tituloGuitarra {
+    padding-left: 12%;
+    color: white;
+  }
+  .imgGuitarra {
+    margin-left: 0%;
+    border: solid black 5px;
+  }
+  .textoBuyNow {
+    padding-left: 0%;
+    color: white;
+  }
+  .margenGuitar {
+    margin-bottom: 5%;
+  }
+  .hideOnSmallScreen {
+    display: none;
+  }
+}
+@media (min-width: 577px) {
+  .hideOnBigScreen {
+    display: none;
+  }
+}
+main {
+  background-image: url(.../assets/fondoAboutUs.webp);
+}
+main .contenedorNewsletter {
+  background-color: #525252;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1.5%;
+  margin-top: 3%;
+}
+main .textoNews {
+  padding-left: 39%;
+  color: white;
+}
+main .textoCorreo {
+  padding-left: 39%;
+  color: white;
+}
+
+.cardNA {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rowNA {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10%;
+}
+
+.tituloSuperiorNA {
+  color: white;
+  height: 22%;
+  text-align: center;
+  align-items: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.newDates {
+  color: black;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 2.7rem;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.textoNA {
+  padding-bottom: 5%;
+  font-size: 1.8rem;
+  padding-top: 2%;
+}
+
+.textoNADos {
+  padding-bottom: 2%;
+  padding-top: 2%;
+  font-size: 1.5rem;
+}
+
+.contenedorNABlanco {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  background-color: white;
+  border-radius: 0.3rem !important;
+}
+
+.contenedorNAAzul {
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 0%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #016A92;
+  border-radius: 0.3rem !important;
+  color: white;
+}
+
+.contenedorGuitar {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 5%;
+  text-align: center;
+  justify-content: center;
+}
+
+.card {
+  text-align: center;
+  padding-bottom: 10%;
+  height: 120%;
+  width: 10%;
+}
+
+.card-title {
+  margin-top: 3%;
+}
+
+@media (max-width: 576px) {
+  .contenedorHeader {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #2B3035;
+  }
+  .responsiveCarousel {
+    text-align: center;
+    align-items: center;
+  }
+  .textoMostSold {
+    padding-left: 0%;
+    color: white;
+    text-align: center;
+  }
+  .contenedorGuitar {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .textoVarios {
+    padding-left: 5%;
+    color: white;
+  }
+  .textoNews {
+    padding-left: 0%;
+    color: white;
+  }
+  .textoCorreo {
+    padding-left: 10%;
+    color: white;
+  }
+}
+main {
+  background-color: #23536D;
+}
+main .rowGuitar {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5%;
+}
+main .textoMostSold {
+  text-align: center;
+  color: white;
+}
+main .contenedorGuitar {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 5%;
+  text-align: center;
+  justify-content: center;
+}
+main .card {
+  text-align: center;
+  height: 70%;
+  width: 70%;
+}
+main .card-title {
+  margin-top: 3%;
+}
+main .contenedorNewsletter {
+  background-color: #525252;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1.5%;
+  margin-top: 3%;
+}
+main .textoNews {
+  padding-left: 39%;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: strong;
+}
+main .textoCorreo {
+  padding-left: 39%;
+  color: white;
+}
+
+.footerBar {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .contenedorHeader {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #2B3035;
+  }
+  .contenedorNewsletter {
+    background-color: #525252;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .responsiveCarousel {
+    text-align: center;
+    align-items: center;
+  }
+  .textoMostSold {
+    color: white;
+    text-align: center;
+  }
+  .rowGuitar {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contenedorGuitar {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .textoNews {
+    padding-left: 0%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .textoCorreo {
+    padding-left: 0%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .textoEnterEmail {
+    padding-left: 0%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+main {
+  background-color: #23536D;
+}
+main .textoMostSold {
+  text-align: center;
+  color: white;
+}
+main .contenedorGuitar {
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 400px;
+  height: 400px;
+}
+main .card {
+  text-align: center;
+  height: 100%;
+  margin: 3%;
+  padding: 3%;
+}
+main .card-title {
+  margin-top: 3%;
+}
+main .contenedorNewsletter {
+  background-color: #525252;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1.5%;
+  margin-top: 3%;
+}
+main .textoNews {
+  padding-left: 39%;
+  color: white;
+}
+main .textoCorreo {
+  padding-left: 39%;
+  color: white;
+}
+
+/* CLASES DE PAGINAS DE GUITARRA */
+.tituloGuitarra {
+  padding-left: 17.5%;
+  padding-top: 1.5%;
+  margin-bottom: 1.4%;
+  color: white;
+}
+
+.imgGuitarra {
+  margin-left: 5%;
+  border: solid black 5px;
+  position: static;
+}
+
+.infoGuitarra {
+  padding-left: 30%;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 6%;
+}
+
+.textoBuyNow {
+  padding-left: 17.5%;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .contenedorHeader {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #2B3035;
+  }
+  .responsiveCarousel {
+    text-align: center;
+    align-items: center;
+  }
+  .textoMostSold {
+    padding-left: 0%;
+    color: white;
+    text-align: center;
+  }
+  .contenedorGuitar {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .textoVarios {
+    padding-left: 5%;
+    color: white;
+  }
+  .textoNews {
+    padding-left: 0%;
+    color: white;
+  }
+  .textoCorreo {
+    padding-left: 10%;
+    color: white;
+  }
+  /* CLASES DE SITIOS DE GUITARRAS */
+  .infoGuitarra {
+    padding-left: 0%;
+    margin-top: 5%;
+    color: white;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .tituloGuitarra {
+    padding-left: 12%;
+    color: white;
+  }
+  .imgGuitarra {
+    margin-left: 0%;
+    border: solid black 5px;
+  }
+  .textoBuyNow {
+    padding-left: 0%;
+    color: white;
+  }
+  .margenGuitar {
+    margin-bottom: 5%;
+  }
+  .hideOnSmallScreen {
+    display: none;
+  }
+}
+@media (min-width: 577px) {
+  .hideOnBigScreen {
+    display: none;
+  }
+}
+main {
+  background-image: url(.../assets/fondoAboutUs.webp);
+}
+main #map {
+  height: 500px;
+  margin-top: 3%;
+  margin-bottom: 7%;
+}
+main .contenedorNewsletter {
+  background-color: #525252;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1.5%;
+  margin-top: 3%;
+}
+main .textoNews {
+  padding-left: 39%;
+  color: white;
+}
+main .textoCorreo {
+  padding-left: 39%;
+  color: white;
+}
+
+.cardStores {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rowStores {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10%;
+}
+
+.tituloSuperiorStores {
+  color: white;
+  height: 22%;
+  text-align: center;
+  align-items: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.newDates {
+  color: black;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 2.7rem;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.textoStores {
+  padding-bottom: 5%;
+  font-size: 1.8rem;
+  padding-top: 2%;
+}
+
+.textoStoresDos {
+  padding-bottom: 2%;
+  padding-top: 2%;
+  font-size: 1.5rem;
+}
+
+.contenedorStoresBlanco {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  background-color: white;
+  border-radius: 0.3rem !important;
+}
+
+.contenedorStoresAzul {
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 0%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #016A92;
+  border-radius: 0.3rem !important;
+  color: white;
+}
+
+.contenedorGuitar {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 5%;
+  text-align: center;
+  justify-content: center;
+}
+
+.card {
+  text-align: center;
+  padding-bottom: 10%;
+  height: 120%;
+  width: 10%;
+}
+
+.card-title {
+  margin-top: 3%;
+}
+
+@media (max-width: 576px) {
+  .contenedorHeader {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #2B3035;
+  }
+  .responsiveCarousel {
+    text-align: center;
+    align-items: center;
+  }
+  .textoMostSold {
+    padding-left: 0%;
+    color: white;
+    text-align: center;
+  }
+  .contenedorGuitar {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .textoVarios {
+    padding-left: 5%;
+    color: white;
+  }
+  .textoNews {
+    padding-left: 0%;
+    color: white;
+  }
+  .textoCorreo {
+    padding-left: 10%;
+    color: white;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

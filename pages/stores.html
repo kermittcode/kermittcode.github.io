@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1337Guitars - Music Fountain</title>
+  <meta 
+        name="description" 
+        content="Find the best guitar brands at 1337Guitars. Fender, Gibson, Ibanez, PRS and many more!"
+      />
+      <meta
+        name="keywords"
+        content="guitar, store, fender, gibson, ibanez, prs, deals, discount, instruments, music, guitar brands"
+/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="shortcut icon" href="../assets/icons/favicon.ico" type="image/x-icon">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+</head>
+<body>
+  <header>
+       
+        <div class="contenedorHeader">
+            <div class="row rowHeader">
+             <!-- Logo main menu -->
+        <div class="fotoLogo col-2">
+            <img src="../assets/icons/apple-touch-icon.png" alt="Logo 1337Guitars" class="fotoLogo"
+            width="100%" 
+            height="100%"
+            />
+        </div>
+            <!-- Navbar main menu -->
+              <nav class="navbar bg-dark border-bottom border-body contenedorHeader navbar-expand-lg bg-body-tertiary col-10" data-bs-theme="dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html">1337 Guitars</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" href="../pages/newArrivals.html">New Arrivals</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../pages/stores.html">Stores</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../pages/brands.html">Brands</a>
+                      </li>
+                      <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>                  
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+    </header>
+
+    <main> 
+      
+     <!-- Título Stores -->
+
+  <h2 class="tituloSuperiorStores">Stores</h2>
+
+
+  <!-- Texto Stores -->
+
+  <div class="contenedorStoresBlanco">
+      <!-- Caja fondo azul dentro de la caja de fondo blanco -->
+    <div class="contenedorStoresAzul">
+      <div class="textoStores">
+        📍 Welcome to a haven for all things guitar-related! At <strong>1337 Guitars</strong>, we take pride
+        in offering a diverse range of sections, each catering to different aspects of your musical journey. Explore our
+        specialized sections to find the gear, accessories, and knowledge you need to amplify your passion. 📍
+      </div>
+    
+    <!-- Contenedor del mapa -->
+
+<div class="row">
+  <div id="map"></div>
+  </div>
+  <div>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5bM6Kn2A7aAFsYA7VyBC1j3Ju6nolfEk&callback=initMap&v=weekly"
+      defer
+      >
+    </script>
+    <!DOCTYPE html>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    
+    <script>
+      /**
+       * @license
+       * Copyright 2019 Google LLC. All Rights Reserved.
+       * SPDX-License-Identifier: Apache-2.0
+       */
+      // The following example creates complex markers to indicate beaches near
+      // Sydney, NSW, Australia. Note that the anchor is set to (0,32) to correspond
+      // to the base of the flagpole.
+      function initMap() {
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 11.5,
+          center: { lat: -33.395848938736556, lng: -70.54739893305151 },
+        });
+
+        setMarkers(map);
+      }
+
+      // Data for the markers consisting of a name, a LatLng and a zIndex for the
+      // order in which these markers should display on top of each other.
+      const beaches = [
+        ["Carlos Antunez 2826, Providencia", -33.425302, -70.596355, 4],
+        ["Monroe 6898, Las Condes", -33.414219, -70.558524, 5],
+        ["Coipué 3036, Macul", -33.488413, -70.601036, 3],
+        ["Los Cactus 1576, Lo Barnechea", -33.357395, -70.520498, 2],
+        ["Pdte. Salvador Allende 463, Huechuraba", -33.37859325228288, -70.6325884209371, 1],
+      ];
+
+      function setMarkers(map) {
+        // Adds markers to the map.
+        // Marker sizes are expressed as a Size of X,Y where the origin of the image
+        // (0,0) is located in the top left of the image.
+        // Origins, anchor positions and coordinates of the marker increase in the X
+        // direction to the right and in the Y direction down.
+        const image = {
+          url: "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
+          // This marker is 20 pixels wide by 32 pixels high.
+          size: new google.maps.Size(20, 32),
+          // The origin for this image is (0, 0).
+          origin: new google.maps.Point(0, 0),
+          // The anchor for this image is the base of the flagpole at (0, 32).
+          anchor: new google.maps.Point(0, 32),
+        };
+        // Shapes define the clickable region of the icon. The type defines an HTML
+        // <area> element 'poly' which traces out a polygon as a series of X,Y points.
+        // The final coordinate closes the poly by connecting to the first coordinate.
+        const shape = {
+          coords: [1, 1, 1, 20, 18, 20, 18, 1],
+          type: "poly",
+        };
+
+        for (let i = 0; i < beaches.length; i++) {
+          const beach = beaches[i];
+
+          new google.maps.Marker({
+            position: { lat: beach[1], lng: beach[2] },
+            map,
+            icon: image,
+            shape: shape,
+            title: beach[0],
+            zIndex: beach[3],
+          });
+        }
+      }
+
+      window.initMap = initMap;
+    </script>
+  </div>
+        </style>
+      </head>
+        <script
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCm7r1j1MLXXKtg7BCxV2fdPUmRv4m-xyg&callback=initMap&v=weekly"
+          defer
+        ></script>
+    </html>
+    </div>
+  </div>
+  </div>
+
+
+    
+    <!-- Newsletter -->
+    <div class="contenedorNewsletter">
+    <h2 class="textoNews responsiveCarousel">Subscribe to our Newsletter!</h2>
+    <form class="textoCorreo" action="correo.php" method="POST" enctype="text/plain">
+      <div>
+        <label for="email" class="textoVarios responsiveCarousel">Enter your email</label>
+        <input type="email" id="email"/>
+        <input type="submit" value="Subscribe"/>
+      </div>
+    </form>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footerBar">
+      <a href="http://www.instagram.com">
+        <img target="_blank" src="../assets/minimalist-instagram-icon-26-3372645709.webp" alt="Logo IG"
+        width="90px"    
+        height="90px"
+        />
+    
+        <a href="http://www.facebook.com">
+        <img target="_blank" src="../assets/face.webp" alt="Logo FB"
+        width="90px"    
+        height="90px"
+        />
+    
+        <a href="http://www.youtube.com">
+        <img target="_blank" src="../assets/395125-328232108.webp" alt="Logo YT" 
+        width="90px"    
+        height="60px"
+    />
+        <div>
+            <a href="../pages/aboutUs.html" class="textoFooter">
+            <h4>About Us</h4>
+          </div>
+  
+          <div>
+            <a href="../pages/customerService.html" class="textoFooter">
+            <h4>Customer Service</h4>
+          </div>
+
+          
+    </footer>
+
+  <!-- Script Mapa -->
+
+  <body>
+    <div id="map"></div>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCm7r1j1MLXXKtg7BCxV2fdPUmRv4m-xyg&callback=initMap&v=weekly"
+      defer
+    ></script>
+  </body>
+
+  <!-- Script del bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+ main {
+    background-color: $bg-color-main;
+
+    .rowGuitar {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 5%;
+    }
+
+    .textoMostSold {
+        text-align: center;
+        color: white;
+    }
+
+     .contenedorGuitar {
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-left: 5%;
+        text-align: center;
+        justify-content: center;
+    }
+
+     .card {
+         text-align: center;
+         height:70%;
+         width: 70%;
+     }
+
+     .card-title {
+         margin-top: 3%;
+     }
+
+     .contenedorNewsletter {
+        background-color:$color-terciario;
+        width: 100%;
+        padding-top: 1%;
+        padding-bottom: 1.5%;
+        margin-top: 3%;
+    }
+
+    .textoNews {
+        padding-left: 39%;
+        color: white;
+        font-size: 1.7rem;
+        font-weight: strong;
+    }
+    
+    .textoCorreo {
+        padding-left: 39%;
+        color: white;
+    }
+
+ }
+    .footerBar {
+        background-color: black;
+        height: 100%;
+        width: 100%;
+     }
+
+@media (max-width: 576px){
+
+    .contenedorHeader{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #2B3035;
+    }
+
+    .contenedorNewsletter {
+        background-color:$color-terciario;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .responsiveCarousel{
+        text-align: center;
+        align-items: center;
+    }
+
+    .textoMostSold {
+        color: white;
+        text-align: center;
+    }
+
+    .rowGuitar {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contenedorGuitar{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .textoNews {
+        padding-left: 0%;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+
+    }
+    
+    .textoCorreo {
+        padding-left: 0%;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .textoEnterEmail {
+        padding-left: 0%;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
