@@ -19,6 +19,7 @@ header {
     .fotoLogo {
         border-radius: 50%;
         padding: 1%;
+        object-fit: cover;        
         }
 
     .navbar-brand {
@@ -40,4 +41,11 @@ header {
         flex-wrap: wrap;
         background-color: $color-secundario;
     }
+
+    .fotoLogo {
+        border-radius: 50%;
+        padding: 1%;
+        object-fit: cover;
+        }
+
 }

@@ -2,9 +2,7 @@
     background-color: $bg-color-main;
 
     .rowGuitar {
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 5%;
+        margin-right: 10%;
     }
 
     .textoMostSold {
@@ -13,21 +11,20 @@
     }
 
      .contenedorGuitar {
-        padding-left: 5%;
-        padding-right: 5%;
-        margin-left: 5%;
+        padding-right: 10%;
         text-align: center;
-        justify-content: center;
+        justify-content: space-between;
     }
 
-     .card {
+     .cardGuitar {
          text-align: center;
-         height:70%;
-         width: 70%;
+         height: 320px !important;
+         width: 320px!important;
      }
 
      .card-title {
          margin-top: 3%;
+         color: white;
      }
 
      .contenedorNewsletter {
@@ -39,23 +36,15 @@
     }
 
     .textoNews {
-        padding-left: 39%;
-        color: white;
-        font-size: 1.7rem;
-        font-weight: strong;
-    }
-    
-    .textoCorreo {
-        padding-left: 39%;
         color: white;
     }
 
- }
     .footerBar {
         background-color: black;
         height: 100%;
         width: 100%;
      }
+}
 
 @media (max-width: 576px){
 
@@ -64,14 +53,9 @@
         justify-content: center;
         flex-wrap: wrap;
         background-color: #2B3035;
+        object-fit: cover;
     }
 
-    .contenedorNewsletter {
-        background-color:$color-terciario;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
 
     .responsiveCarousel{
         text-align: center;
@@ -88,34 +72,62 @@
         margin-right: auto;
     }
 
-    .contenedorGuitar{
-        text-align: center;
-        align-items: center;
+    .contenedorGuitar {
+        justify-content: space-between;
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 400px;
+        height: 400px;
+      }
+
+    .contenedorNewsletter {
+        background-color: $color-terciario;
+        width: auto;
+        display: flex;
         justify-content: center;
-    }
-
-    .textoNews {
-        padding-left: 0%;
-        color: white;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-
+        align-items: center;
+        height: 17vh;
     }
     
-    .textoCorreo {
-        padding-left: 0%;
-        color: white;
-        margin-left: auto;
-        margin-right: auto;
+    .centered-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
+        height: 100%;
     }
+    
+    .textoNews {
+        color: white;
 
+    }
+  
     .textoEnterEmail {
         padding-left: 0%;
         color: white;
-        margin-left: auto;
-        margin-right: auto;
+    }
+
+    .cardGuitar {
+        margin-left: 0%;
+        padding-right: 10%;
+        text-align: center;
+        height:80%;
+        width: 80%;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 815px){
+
+    .cardGuitar {
+        margin-left: 20%;
+        text-align: center;
+        height:80%;
+        width: 80%;
+        align-items: center;
+        text-align: center;
     }
 
 }

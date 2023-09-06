@@ -139,4 +139,63 @@ main {
         padding-left: 10%;
         color: white;
     }
+
+    .tituloSuperiorBr {
+        color:white;
+        height: 22%;
+        text-align: center;
+        align-items: center;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        font-size: 2.2rem;
+        font-weight: bold;
+    }
+
+    .textoBrands {
+        padding-bottom: 5%;
+        font-size: 1.2rem !important;
+        padding-top: 2%;
+    }
+
+    .cardBrandsDos {
+        margin-right: 17%;
+        text-align: center;
+        height:80%;
+        width: 80%;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 810px){
+    .tituloSuperiorBr {
+        color:white;
+        height: 22%;
+        text-align: center;
+        align-items: center;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        font-size: 2.4rem;
+        font-weight: bold;
+    }
+
+    .textoBrands {
+        padding-bottom: 5%;
+        font-size: 1.5rem;
+        padding-top: 2%;
+    }
+
+    .cardBrands {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        padding-top: 10%;
+    }
+
+    .contenedorBrandsAzul {
+        padding-bottom: 2%;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: #016A92;
+    }
 }

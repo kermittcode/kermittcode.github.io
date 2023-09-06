@@ -2,6 +2,36 @@ footer {
         background-color: black;
         text-align: center;
     }
+
+    .contenedorNewsletter {
+      background-color: $color-terciario;
+      width: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 17vh;
+  }
+  
+  .centered-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 100%;
+      margin-bottom: 3%;
+  }
+  
+  .textoNews {
+      color: white;
+
+  }
+
+  .textoEnterEmail {
+      padding-left: 0%;
+      color: white;
+  }
+
      
      .footerBar {
         background-color: black;

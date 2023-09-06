@@ -1,17 +1,10 @@
  main {
     background-color: $bg-color-main;
+ }
+    @media (min-width: 820px) and (max-width: 1930px){
 
-    .textoMostSold {
-        text-align: center;
-        color: white;
-    }
-
-     .contenedorGuitar {
-        justify-content: space-between;
-        padding-left: 5%;
-        padding-right: 5%;
-        width: 400px;
-        height: 400px;
+    .hideOnBigScreen {
+        display: none;
     }
 
      .card {
@@ -43,36 +36,38 @@
         color: white;
     }
 
- }
+
 
  /* CLASES DE PAGINAS DE GUITARRA */
 
-.tituloGuitarra{
-    padding-left: 17.5%;
+.tituloGuitarraFender{
+    padding-left: 18.1%;
     padding-top: 1.5%;
     margin-bottom: 1.4%;
     color:white;
 }
 
-.imgGuitarra{
+.imgGuitarraFender{
     margin-left: 5%;
     border: solid black 5px;
     position:static;
+    height: 500px;
+    width: 500px;
 }
 
-.infoGuitarra{
-    padding-left: 30%;
+.infoGuitarraFender{
+    padding-left: 0%;
     color:white;
-    font-size: 1.2rem;
-    margin-top: 6%;
+    font-size: 1.8rem;
+    margin-top: 5%;
 }
 
 .textoBuyNow{
     padding-left: 17.5%;
     color:white;
 }
-
-@media (max-width: 576px){
+}
+@media (max-width: 400px) and (max-width: 576px){
 
     .contenedorHeader{
         display: flex;
@@ -115,28 +110,30 @@
 
 /* CLASES DE SITIOS DE GUITARRAS */
 
-    .infoGuitarra{
-        padding-left: 0%;
-        margin-top: 5%;
-        color:white;
-        font-size: 1rem;
-        width: 100%;
-        text-align: center;
-        align-items: center;
-    }
-    .tituloGuitarra{
-        padding-left: 12%;
-        color:white;
-    }
-    .imgGuitarra{
-        margin-left: 0%;
-        border: solid black 5px;
+.infoGuitarraGibson{
+    padding-left: 0%;
+    margin-top: 5%;
+    color:white;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.tituloGuitarraGibson{
+    padding-left: 15%;
+    padding-top: 1.5%;
+    margin-bottom: 1.4%;
+    color:white;
+}
+.imgGuitarraGibson{
+    margin-left: 0%;
+    border: solid black 5px;
+
+}
     
-    }
-    
-    .textoBuyNow{
-        padding-left: 0%;
-        color:white;	
+.textoBuyNow{
+    padding-left: 0%;
+    color:white;	
     }
 
     .margenGuitar {
@@ -149,8 +146,34 @@
       
 }
 
-      @media (min-width: 577px) {
+@media (min-width: 577px) and (max-width: 815px) {
+    
     .hideOnBigScreen {
-    display: none;
+        display: none;
     }
+
+    .imgGuitarraFender{
+        margin-top: 0%;
+        margin-left: 0%;
+        border: solid black 5px;
+        height: 350px;
+        width: 350px;
+    }
+
+    .infoGuitarraFender {
+        padding-left: 20%;
+        padding-top: 5%;
+        color:white;
+        font-size: 1.2rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .tituloGuitarraFender{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 7%;
+        color:white;
+    }
+
 }

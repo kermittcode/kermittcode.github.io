@@ -146,4 +146,73 @@ main {
         padding-left: 10%;
         color: white;
     }
+
+    .textoCS {
+        padding-bottom: 5%;
+        font-size: 1rem !important;
+        padding-top: 2%;
+    }
+    .tituloSuperiorCS {
+        color:white;
+        height: 22%;
+        text-align: center;
+        align-items: center;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        font-size: 2rem;
+        font-weight: bold;
+    }   
+
+    .imgCustomerS {
+        border-radius: 50%;
+        height: 90px;
+        width: 90px;
+        background-color: white;
+        margin-top: 20%;
+    
+    }
+
+    .textoCustomerS {
+        padding-left: 10% !important;
+        font-size: 0.8rem !important; 
+        width: 300px !important;
+    }
+}
+
+@media (max-width: 810px){
+    .tituloSuperiorCS {
+        color:white;
+        height: 22%;
+        text-align: center;
+        align-items: center;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        font-size: 2rem;
+        font-weight: bold;
+    }   
+
+    .imgCustomerS {
+        border-radius: 50%;
+        height: 130px;
+        width: 130px;
+        background-color: white;
+        margin-top: 20%;
+    
+    }
+
+    .textoCS {
+        padding-bottom: 5%;
+        font-size: 1.4rem;
+        padding-top: 2%;
+    }
+
+    .textoCustomerS {
+        padding-left: 10%;
+        font-size: 1.1rem; 
+        width: 500px;
+    }
+
+
+
+
 }

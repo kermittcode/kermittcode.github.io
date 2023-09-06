@@ -13,6 +13,7 @@ header .contenedorHeader {
 header .fotoLogo {
   border-radius: 50%;
   padding: 1%;
+  object-fit: cover;
 }
 header .navbar-brand {
   font-size: 2.5rem;
@@ -31,10 +32,43 @@ header .rowHeader {
     flex-wrap: wrap;
     background-color: #2B3035;
   }
+  .fotoLogo {
+    border-radius: 50%;
+    padding: 1%;
+    object-fit: cover;
+  }
 }
 footer {
   background-color: black;
   text-align: center;
+}
+
+.contenedorNewsletter {
+  background-color: #525252;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 17vh;
+}
+
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  margin-bottom: 3%;
+}
+
+.textoNews {
+  color: white;
+}
+
+.textoEnterEmail {
+  padding-left: 0%;
+  color: white;
 }
 
 .footerBar {
@@ -179,6 +213,58 @@ main .textoCorreo {
     padding-left: 10%;
     color: white;
   }
+  .tituloSuperiorBr {
+    color: white;
+    height: 22%;
+    text-align: center;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+  .textoBrands {
+    padding-bottom: 5%;
+    font-size: 1.2rem !important;
+    padding-top: 2%;
+  }
+  .cardBrandsDos {
+    margin-right: 17%;
+    text-align: center;
+    height: 80%;
+    width: 80%;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (max-width: 810px) {
+  .tituloSuperiorBr {
+    color: white;
+    height: 22%;
+    text-align: center;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 2.4rem;
+    font-weight: bold;
+  }
+  .textoBrands {
+    padding-bottom: 5%;
+    font-size: 1.5rem;
+    padding-top: 2%;
+  }
+  .cardBrands {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding-top: 10%;
+  }
+  .contenedorBrandsAzul {
+    padding-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #016A92;
+  }
 }
 main {
   background-image: url(.../assets/fondoAboutUs.webp);
@@ -291,6 +377,31 @@ main .textoCorreo {
   .textoCorreo {
     padding-left: 10%;
     color: white;
+  }
+  .textoAU {
+    padding-bottom: 5%;
+    font-size: 0.95rem;
+    padding-top: 2%;
+  }
+  .textoAUDos {
+    padding-bottom: 2%;
+    padding-top: 8%;
+    font-size: 0.95rem;
+  }
+  .textoAUTres {
+    padding-bottom: 2%;
+    padding-top: 5%;
+    font-size: 0.95rem;
+  }
+  .tituloSuperiorAU {
+    color: white;
+    height: 22%;
+    text-align: center;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 2rem;
+    font-weight: bold;
   }
 }
 main {
@@ -429,64 +540,429 @@ main .textoCorreo {
     padding-left: 10%;
     color: white;
   }
+  .textoCS {
+    padding-bottom: 5%;
+    font-size: 1rem !important;
+    padding-top: 2%;
+  }
+  .tituloSuperiorCS {
+    color: white;
+    height: 22%;
+    text-align: center;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .imgCustomerS {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    background-color: white;
+    margin-top: 20%;
+  }
+  .textoCustomerS {
+    padding-left: 10% !important;
+    font-size: 0.8rem !important;
+    width: 300px !important;
+  }
+}
+@media (max-width: 810px) {
+  .tituloSuperiorCS {
+    color: white;
+    height: 22%;
+    text-align: center;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .imgCustomerS {
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    background-color: white;
+    margin-top: 20%;
+  }
+  .textoCS {
+    padding-bottom: 5%;
+    font-size: 1.4rem;
+    padding-top: 2%;
+  }
+  .textoCustomerS {
+    padding-left: 10%;
+    font-size: 1.1rem;
+    width: 500px;
+  }
 }
 main {
   background-color: #23536D;
 }
-main .textoMostSold {
-  text-align: center;
-  color: white;
+
+@media (min-width: 820px) and (max-width: 1930px) {
+  .hideOnBigScreen {
+    display: none;
+  }
+  .card {
+    text-align: center;
+    height: 100%;
+    margin: 3%;
+    padding: 3%;
+  }
+  .card-title {
+    margin-top: 3%;
+  }
+  .contenedorNewsletter {
+    background-color: #525252;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1.5%;
+    margin-top: 3%;
+  }
+  .textoNews {
+    padding-left: 39%;
+    color: white;
+  }
+  .textoCorreo {
+    padding-left: 39%;
+    color: white;
+  }
+  /* CLASES DE PAGINAS DE GUITARRA */
+  .tituloGuitarraFender {
+    padding-left: 18.1%;
+    padding-top: 1.5%;
+    margin-bottom: 1.4%;
+    color: white;
+  }
+  .imgGuitarraFender {
+    margin-left: 5%;
+    border: solid black 5px;
+    position: static;
+    height: 500px;
+    width: 500px;
+  }
+  .infoGuitarraFender {
+    padding-left: 0%;
+    color: white;
+    font-size: 1.8rem;
+    margin-top: 5%;
+  }
+  .textoBuyNow {
+    padding-left: 17.5%;
+    color: white;
+  }
 }
-main .contenedorGuitar {
-  justify-content: space-between;
-  padding-left: 5%;
-  padding-right: 5%;
-  width: 400px;
-  height: 400px;
+@media (max-width: 400px) and (max-width: 576px) {
+  .contenedorHeader {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #2B3035;
+  }
+  .responsiveCarousel {
+    text-align: center;
+    align-items: center;
+  }
+  .textoMostSold {
+    padding-left: 0%;
+    color: white;
+    text-align: center;
+  }
+  .contenedorGuitar {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .textoVarios {
+    padding-left: 5%;
+    color: white;
+  }
+  .textoNews {
+    padding-left: 0%;
+    color: white;
+  }
+  .textoCorreo {
+    padding-left: 10%;
+    color: white;
+  }
+  /* CLASES DE SITIOS DE GUITARRAS */
+  .infoGuitarraGibson {
+    padding-left: 0%;
+    margin-top: 5%;
+    color: white;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .tituloGuitarraGibson {
+    padding-left: 15%;
+    padding-top: 1.5%;
+    margin-bottom: 1.4%;
+    color: white;
+  }
+  .imgGuitarraGibson {
+    margin-left: 0%;
+    border: solid black 5px;
+  }
+  .textoBuyNow {
+    padding-left: 0%;
+    color: white;
+  }
+  .margenGuitar {
+    margin-bottom: 5%;
+  }
+  .hideOnSmallScreen {
+    display: none;
+  }
 }
-main .card {
-  text-align: center;
-  height: 100%;
-  margin: 3%;
-  padding: 3%;
+@media (min-width: 577px) and (max-width: 815px) {
+  .hideOnBigScreen {
+    display: none;
+  }
+  .imgGuitarraFender {
+    margin-top: 0%;
+    margin-left: 0%;
+    border: solid black 5px;
+    height: 350px;
+    width: 350px;
+  }
+  .infoGuitarraFender {
+    padding-left: 20%;
+    padding-top: 5%;
+    color: white;
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+  }
+  .tituloGuitarraFender {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 7%;
+    color: white;
+  }
 }
-main .card-title {
-  margin-top: 3%;
-}
-main .contenedorNewsletter {
-  background-color: #525252;
-  width: 100%;
-  padding-top: 1%;
-  padding-bottom: 1.5%;
-  margin-top: 3%;
-}
-main .textoNews {
-  padding-left: 39%;
-  color: white;
-}
-main .textoCorreo {
-  padding-left: 39%;
-  color: white;
+main {
+  background-color: #23536D;
 }
 
+@media (min-width: 820px) and (max-width: 1930px) {
+  .hideOnBigScreen {
+    display: none;
+  }
+  .textoMostSold {
+    text-align: center;
+    color: white;
+  }
+  .contenedorGuitar {
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 400px;
+    height: 400px;
+  }
+  .card {
+    text-align: center;
+    height: 100%;
+    margin: 3%;
+    padding: 3%;
+  }
+  .card-title {
+    margin-top: 3%;
+  }
+  .contenedorNewsletter {
+    background-color: #525252;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1.5%;
+    margin-top: 3%;
+  }
+  .textoNews {
+    padding-left: 39%;
+    color: white;
+  }
+  .textoCorreo {
+    padding-left: 39%;
+    color: white;
+  }
+}
 /* CLASES DE PAGINAS DE GUITARRA */
-.tituloGuitarra {
+.tituloGuitarraGibson {
   padding-left: 17.5%;
   padding-top: 1.5%;
   margin-bottom: 1.4%;
   color: white;
 }
 
-.imgGuitarra {
+.imgGuitarraGibson {
   margin-left: 5%;
   border: solid black 5px;
   position: static;
 }
 
-.infoGuitarra {
+.infoGuitarraGibson {
+  padding-left: 5%;
+  color: white;
+  font-size: 1.8rem;
+  margin-top: 3%;
+}
+
+.textoBuyNow {
+  padding-left: 17.5%;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .hideOnSmallScreen {
+    display: none;
+  }
+  .contenedorHeader {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #2B3035;
+  }
+  .responsiveCarousel {
+    text-align: center;
+    align-items: center;
+  }
+  .textoMostSold {
+    padding-left: 0%;
+    color: white;
+    text-align: center;
+  }
+  .contenedorGuitar {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .textoVarios {
+    padding-left: 5%;
+    color: white;
+  }
+  .textoNews {
+    padding-left: 0%;
+    color: white;
+  }
+  .textoCorreo {
+    padding-left: 10%;
+    color: white;
+  }
+  /* CLASES DE SITIOS DE GUITARRAS */
+  .infoGuitarraGibson {
+    padding-left: 0%;
+    margin-top: 5%;
+    color: white;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .tituloGuitarraGibson {
+    padding-left: 12%;
+    padding-top: 1.5%;
+    margin-bottom: 1.4%;
+    color: white;
+  }
+  .imgGuitarraGibson {
+    margin-left: 0%;
+    border: solid black 5px;
+  }
+  .textoBuyNow {
+    padding-left: 0%;
+    color: white;
+  }
+  .margenGuitar {
+    margin-bottom: 5%;
+  }
+}
+@media (min-width: 577px) and (max-width: 815px) {
+  .imgGuitarraGibson {
+    margin-top: 0%;
+    margin-left: 0%;
+    border: solid black 5px;
+    height: 350px;
+    width: 350px;
+  }
+  .infoGuitarraGibson {
+    padding-left: 20%;
+    padding-top: 5%;
+    color: white;
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+  }
+  .tituloGuitarraGibson {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 7%;
+    color: white;
+  }
+}
+main {
+  background-color: #23536D;
+}
+
+@media (min-width: 820px) and (max-width: 1930px) {
+  .hideOnBigScreen {
+    display: none;
+  }
+  .textoMostSold {
+    text-align: center;
+    color: white;
+  }
+  .contenedorGuitar {
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 400px;
+    height: 400px;
+  }
+  .card {
+    text-align: center;
+    height: 100%;
+    margin: 3%;
+    padding: 3%;
+  }
+  .card-title {
+    margin-top: 3%;
+  }
+  .contenedorNewsletter {
+    background-color: #525252;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1.5%;
+    margin-top: 3%;
+  }
+  .textoNews {
+    padding-left: 39%;
+    color: white;
+  }
+  .textoCorreo {
+    padding-left: 39%;
+    color: white;
+  }
+}
+/* CLASES DE PAGINAS DE GUITARRA */
+.tituloGuitarraIbanez {
+  padding-left: 17.5%;
+  padding-top: 1.5%;
+  margin-bottom: 1.4%;
+  color: white;
+}
+
+.imgGuitarraIbanez {
+  margin-left: 5%;
+  border: solid black 5px;
+  position: static;
+}
+
+.infoGuitarraIbanez {
   padding-left: 30%;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   margin-top: 6%;
 }
 
@@ -529,7 +1005,7 @@ main .textoCorreo {
     color: white;
   }
   /* CLASES DE SITIOS DE GUITARRAS */
-  .infoGuitarra {
+  .infoGuitarraIbanez {
     padding-left: 0%;
     margin-top: 5%;
     color: white;
@@ -538,11 +1014,11 @@ main .textoCorreo {
     text-align: center;
     align-items: center;
   }
-  .tituloGuitarra {
+  .tituloGuitarraIbanez {
     padding-left: 12%;
     color: white;
   }
-  .imgGuitarra {
+  .imgGuitarraIbanez {
     margin-left: 0%;
     border: solid black 5px;
   }
@@ -557,273 +1033,27 @@ main .textoCorreo {
     display: none;
   }
 }
-@media (min-width: 577px) {
-  .hideOnBigScreen {
-    display: none;
+@media (min-width: 577px) and (max-width: 815px) {
+  .imgGuitarraIbanez {
+    margin-top: 0%;
+    margin-left: 0%;
+    border: solid black 5px;
+    height: 350px;
+    width: 350px;
   }
-}
-main {
-  background-color: #23536D;
-}
-main .textoMostSold {
-  text-align: center;
-  color: white;
-}
-main .contenedorGuitar {
-  justify-content: space-between;
-  padding-left: 5%;
-  padding-right: 5%;
-  width: 400px;
-  height: 400px;
-}
-main .card {
-  text-align: center;
-  height: 100%;
-  margin: 3%;
-  padding: 3%;
-}
-main .card-title {
-  margin-top: 3%;
-}
-main .contenedorNewsletter {
-  background-color: #525252;
-  width: 100%;
-  padding-top: 1%;
-  padding-bottom: 1.5%;
-  margin-top: 3%;
-}
-main .textoNews {
-  padding-left: 39%;
-  color: white;
-}
-main .textoCorreo {
-  padding-left: 39%;
-  color: white;
-}
-
-/* CLASES DE PAGINAS DE GUITARRA */
-.tituloGuitarra {
-  padding-left: 17.5%;
-  padding-top: 1.5%;
-  margin-bottom: 1.4%;
-  color: white;
-}
-
-.imgGuitarra {
-  margin-left: 5%;
-  border: solid black 5px;
-  position: static;
-}
-
-.infoGuitarra {
-  padding-left: 30%;
-  color: white;
-  font-size: 1.2rem;
-  margin-top: 6%;
-}
-
-.textoBuyNow {
-  padding-left: 17.5%;
-  color: white;
-}
-
-@media (max-width: 576px) {
-  .contenedorHeader {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: #2B3035;
-  }
-  .responsiveCarousel {
-    text-align: center;
-    align-items: center;
-  }
-  .textoMostSold {
-    padding-left: 0%;
+  .infoGuitarraIbanez {
+    padding-left: 30%;
+    padding-top: 0%;
     color: white;
-    text-align: center;
-  }
-  .contenedorGuitar {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-  }
-  .textoVarios {
-    padding-left: 5%;
-    color: white;
-  }
-  .textoNews {
-    padding-left: 0%;
-    color: white;
-  }
-  .textoCorreo {
-    padding-left: 10%;
-    color: white;
-  }
-  /* CLASES DE SITIOS DE GUITARRAS */
-  .infoGuitarra {
-    padding-left: 0%;
-    margin-top: 5%;
-    color: white;
-    font-size: 1rem;
+    font-size: 1.2rem;
     width: 100%;
     text-align: center;
-    align-items: center;
   }
-  .tituloGuitarra {
-    align-items: center;
+  .tituloGuitarraIbanez {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 7%;
     color: white;
-  }
-  .imgGuitarra {
-    margin-left: 0%;
-    border: solid black 5px;
-  }
-  .textoBuyNow {
-    padding-left: 0%;
-    color: white;
-  }
-  .margenGuitar {
-    margin-bottom: 5%;
-  }
-  .hideOnSmallScreen {
-    display: none;
-  }
-}
-@media (min-width: 577px) {
-  .hideOnBigScreen {
-    display: none;
-  }
-}
-main {
-  background-color: #23536D;
-}
-main .textoMostSold {
-  text-align: center;
-  color: white;
-}
-main .contenedorGuitar {
-  justify-content: space-between;
-  padding-left: 5%;
-  padding-right: 5%;
-  width: 400px;
-  height: 400px;
-}
-main .card {
-  text-align: center;
-  height: 100%;
-  margin: 3%;
-  padding: 3%;
-}
-main .card-title {
-  margin-top: 3%;
-}
-main .contenedorNewsletter {
-  background-color: #525252;
-  width: 100%;
-  padding-top: 1%;
-  padding-bottom: 1.5%;
-  margin-top: 3%;
-}
-main .textoNews {
-  padding-left: 39%;
-  color: white;
-}
-main .textoCorreo {
-  padding-left: 39%;
-  color: white;
-}
-
-/* CLASES DE PAGINAS DE GUITARRA */
-.tituloGuitarra {
-  padding-left: 17.5%;
-  padding-top: 1.5%;
-  margin-bottom: 1.4%;
-  color: white;
-}
-
-.imgGuitarra {
-  margin-left: 5%;
-  border: solid black 5px;
-  position: static;
-}
-
-.infoGuitarra {
-  padding-left: 30%;
-  color: white;
-  font-size: 1.2rem;
-  margin-top: 0%;
-}
-
-.textoBuyNow {
-  padding-left: 17.5%;
-  color: white;
-}
-
-@media (max-width: 576px) {
-  .contenedorHeader {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: #2B3035;
-  }
-  .responsiveCarousel {
-    text-align: center;
-    align-items: center;
-  }
-  .textoMostSold {
-    padding-left: 0%;
-    color: white;
-    text-align: center;
-  }
-  .contenedorGuitar {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-  }
-  .textoVarios {
-    padding-left: 5%;
-    color: white;
-  }
-  .textoNews {
-    padding-left: 0%;
-    color: white;
-  }
-  .textoCorreo {
-    padding-left: 10%;
-    color: white;
-  }
-  /* CLASES DE SITIOS DE GUITARRAS */
-  .infoGuitarra {
-    padding-left: 0%;
-    margin-top: 5%;
-    color: white;
-    font-size: 1rem;
-    width: 100%;
-    text-align: center;
-    align-items: center;
-  }
-  .tituloGuitarra {
-    padding-left: 12%;
-    color: white;
-  }
-  .imgGuitarra {
-    margin-left: 0%;
-    border: solid black 5px;
-  }
-  .textoBuyNow {
-    padding-left: 0%;
-    color: white;
-  }
-  .margenGuitar {
-    margin-bottom: 5%;
-  }
-  .hideOnSmallScreen {
-    display: none;
-  }
-}
-@media (min-width: 577px) {
-  .hideOnBigScreen {
-    display: none;
   }
 }
 main {
@@ -965,33 +1195,56 @@ main .textoCorreo {
     padding-left: 10%;
     color: white;
   }
+  .newDates {
+    font-size: 2.2rem !important;
+    color: black;
+    text-align: center;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  .tituloSuperiorNA {
+    color: white;
+    height: 22%;
+    text-align: center;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+  .cardArrivals {
+    margin-right: 20%;
+    text-align: center;
+    height: 85%;
+    width: 85%;
+    align-items: center;
+    text-align: center;
+  }
 }
 main {
   background-color: #23536D;
 }
 main .rowGuitar {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 5%;
+  margin-right: 10%;
 }
 main .textoMostSold {
   text-align: center;
   color: white;
 }
 main .contenedorGuitar {
-  padding-left: 5%;
-  padding-right: 5%;
-  margin-left: 5%;
+  padding-right: 10%;
   text-align: center;
-  justify-content: center;
+  justify-content: space-between;
 }
-main .card {
+main .cardGuitar {
   text-align: center;
-  height: 70%;
-  width: 70%;
+  height: 320px !important;
+  width: 320px !important;
 }
 main .card-title {
   margin-top: 3%;
+  color: white;
 }
 main .contenedorNewsletter {
   background-color: #525252;
@@ -1001,17 +1254,9 @@ main .contenedorNewsletter {
   margin-top: 3%;
 }
 main .textoNews {
-  padding-left: 39%;
-  color: white;
-  font-size: 1.7rem;
-  font-weight: strong;
-}
-main .textoCorreo {
-  padding-left: 39%;
   color: white;
 }
-
-.footerBar {
+main .footerBar {
   background-color: black;
   height: 100%;
   width: 100%;
@@ -1023,12 +1268,7 @@ main .textoCorreo {
     justify-content: center;
     flex-wrap: wrap;
     background-color: #2B3035;
-  }
-  .contenedorNewsletter {
-    background-color: #525252;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    object-fit: cover;
   }
   .responsiveCarousel {
     text-align: center;
@@ -1043,88 +1283,117 @@ main .textoCorreo {
     margin-right: auto;
   }
   .contenedorGuitar {
-    text-align: center;
-    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 400px;
+    height: 400px;
+  }
+  .contenedorNewsletter {
+    background-color: #525252;
+    width: auto;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    height: 17vh;
+  }
+  .centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
   }
   .textoNews {
-    padding-left: 0%;
     color: white;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  }
-  .textoCorreo {
-    padding-left: 0%;
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
   }
   .textoEnterEmail {
     padding-left: 0%;
     color: white;
-    margin-left: auto;
-    margin-right: auto;
+  }
+  .cardGuitar {
+    margin-left: 0%;
+    padding-right: 10%;
+    text-align: center;
+    height: 80%;
+    width: 80%;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (min-width: 577px) and (max-width: 815px) {
+  .cardGuitar {
+    margin-left: 20%;
+    text-align: center;
+    height: 80%;
+    width: 80%;
+    align-items: center;
+    text-align: center;
   }
 }
 main {
   background-color: #23536D;
 }
-main .textoMostSold {
-  text-align: center;
-  color: white;
-}
-main .contenedorGuitar {
-  justify-content: space-between;
-  padding-left: 5%;
-  padding-right: 5%;
-  width: 400px;
-  height: 400px;
-}
-main .card {
-  text-align: center;
-  height: 100%;
-  margin: 3%;
-  padding: 3%;
-}
-main .card-title {
-  margin-top: 3%;
-}
-main .contenedorNewsletter {
-  background-color: #525252;
-  width: 100%;
-  padding-top: 1%;
-  padding-bottom: 1.5%;
-  margin-top: 3%;
-}
-main .textoNews {
-  padding-left: 39%;
-  color: white;
-}
-main .textoCorreo {
-  padding-left: 39%;
-  color: white;
-}
 
+@media (min-width: 820px) and (max-width: 1930px) {
+  .hideOnBigScreen {
+    display: none;
+  }
+  .textoMostSold {
+    text-align: center;
+    color: white;
+  }
+  .contenedorGuitar {
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 400px;
+    height: 400px;
+  }
+  .card {
+    text-align: center;
+    height: 100%;
+    margin: 3%;
+    padding: 3%;
+  }
+  .card-title {
+    margin-top: 3%;
+  }
+  .contenedorNewsletter {
+    background-color: #525252;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1.5%;
+    margin-top: 3%;
+  }
+  .textoNews {
+    padding-left: 39%;
+    color: white;
+  }
+  .textoCorreo {
+    padding-left: 39%;
+    color: white;
+  }
+}
 /* CLASES DE PAGINAS DE GUITARRA */
-.tituloGuitarra {
+.tituloGuitarraPRS {
   padding-left: 17.5%;
   padding-top: 1.5%;
   margin-bottom: 1.4%;
   color: white;
 }
 
-.imgGuitarra {
+.imgGuitarraPRS {
   margin-left: 5%;
   border: solid black 5px;
   position: static;
 }
 
-.infoGuitarra {
+.infoGuitarraPRS {
   padding-left: 30%;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   margin-top: 6%;
 }
 
@@ -1167,7 +1436,7 @@ main .textoCorreo {
     color: white;
   }
   /* CLASES DE SITIOS DE GUITARRAS */
-  .infoGuitarra {
+  .infoGuitarraPRS {
     padding-left: 0%;
     margin-top: 5%;
     color: white;
@@ -1176,11 +1445,11 @@ main .textoCorreo {
     text-align: center;
     align-items: center;
   }
-  .tituloGuitarra {
+  .tituloGuitarraPRS {
     padding-left: 12%;
     color: white;
   }
-  .imgGuitarra {
+  .imgGuitarraPRS {
     margin-left: 0%;
     border: solid black 5px;
   }
@@ -1195,9 +1464,27 @@ main .textoCorreo {
     display: none;
   }
 }
-@media (min-width: 577px) {
-  .hideOnBigScreen {
-    display: none;
+@media (min-width: 577px) and (max-width: 815px) {
+  .imgGuitarraPRS {
+    margin-top: 0%;
+    margin-left: 0%;
+    border: solid black 5px;
+    height: 350px;
+    width: 350px;
+  }
+  .infoGuitarraPRS {
+    padding-left: 30%;
+    padding-top: 0%;
+    color: white;
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+  }
+  .tituloGuitarraPRS {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 7%;
+    color: white;
   }
 }
 main {
@@ -1343,6 +1630,38 @@ main .textoCorreo {
   .textoCorreo {
     padding-left: 10%;
     color: white;
+  }
+  .tituloSuperiorStores {
+    color: white;
+    height: 22%;
+    text-align: center;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+  .textoStores {
+    padding-bottom: 5%;
+    font-size: 1.2rem !important;
+    padding-top: 2%;
+  }
+}
+@media (max-width: 810px) {
+  .tituloSuperiorStores {
+    color: white;
+    height: 22%;
+    text-align: center;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 2.4rem;
+    font-weight: bold;
+  }
+  .textoStores {
+    padding-bottom: 5%;
+    font-size: 1.5rem;
+    padding-top: 2%;
   }
 }
 

@@ -1,6 +1,10 @@
  main {
-    background-color: $bg-color-main;
-
+    background-color: $bg-color-main;}
+    @media (min-width: 820px) and (max-width: 1930px){
+        
+        .hideOnBigScreen {
+            display: none;
+        }
     .textoMostSold {
         text-align: center;
         color: white;
@@ -47,24 +51,24 @@
 
  /* CLASES DE PAGINAS DE GUITARRA */
 
-.tituloGuitarra{
+.tituloGuitarraGibson{
     padding-left: 17.5%;
     padding-top: 1.5%;
     margin-bottom: 1.4%;
     color:white;
 }
 
-.imgGuitarra{
+.imgGuitarraGibson{
     margin-left: 5%;
     border: solid black 5px;
     position:static;
 }
 
-.infoGuitarra{
-    padding-left: 30%;
+.infoGuitarraGibson{
+    padding-left: 5%;
     color:white;
-    font-size: 1.2rem;
-    margin-top: 6%;
+    font-size: 1.8rem;
+    margin-top: 3%;
 }
 
 .textoBuyNow{
@@ -74,6 +78,10 @@
 
 @media (max-width: 576px){
 
+    .hideOnSmallScreen {
+        display: none;
+    }
+      
     .contenedorHeader{
         display: flex;
         justify-content: center;
@@ -115,7 +123,7 @@
 
 /* CLASES DE SITIOS DE GUITARRAS */
 
-    .infoGuitarra{
+    .infoGuitarraGibson{
         padding-left: 0%;
         margin-top: 5%;
         color:white;
@@ -124,11 +132,13 @@
         text-align: center;
         align-items: center;
     }
-    .tituloGuitarra{
-        align-items: center;
-        color:white;
-    }
-    .imgGuitarra{
+    .tituloGuitarraGibson{
+    padding-left: 12%;
+    padding-top: 1.5%;
+    margin-bottom: 1.4%;
+    color:white;
+}
+    .imgGuitarraGibson{
         margin-left: 0%;
         border: solid black 5px;
     
@@ -143,15 +153,36 @@
         margin-bottom: 5%;
     }
     
-    .hideOnSmallScreen {
-        display: none;
-    }
-      
+
 }
 
-      @media (min-width: 577px) {
-    .hideOnBigScreen {
-    display: none;
+@media (min-width: 577px) and (max-width: 815px) {
+    
+    
+    .imgGuitarraGibson {
+        margin-top: 0%;
+        margin-left: 0%;
+        border: solid black 5px;
+        height: 350px;
+        width: 350px;
     }
+
+    .infoGuitarraGibson {
+        padding-left: 20%;
+        padding-top: 5%;
+        color:white;
+        font-size: 1.2rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .tituloGuitarraGibson {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 7%;
+        color:white;
+    }
+
+
 
 }
