@@ -9,26 +9,6 @@ main {
         margin-bottom:7%;
         
     }
-
-
-     .contenedorNewsletter {
-        background-color:$color-terciario;
-        width: 100%;
-        padding-top: 1%;
-        padding-bottom: 1.5%;
-        margin-top: 3%;
-    }
-
-    .textoNews {
-        padding-left: 39%;
-        color: white;
-    }
-    
-    .textoCorreo {
-        padding-left: 39%;
-        color: white;
-    }
-
  }
 
 .cardStores {
@@ -101,26 +81,6 @@ main {
     color:white;
 }
 
-.contenedorGuitar {
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-left: 5%;
-    text-align: center;
-    justify-content: center;
-}
-
- .card {
-     text-align: center;
-     padding-bottom: 10%;
-     height:120%;
-     width: 10%;
- }
-
- .card-title {
-     margin-top: 3%;
- }
-
-
 @media (max-width: 576px){
 
     .contenedorHeader{
@@ -141,24 +101,8 @@ main {
         text-align: center;
     }
 
-    .contenedorGuitar{
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-    }
-
     .textoVarios {
         padding-left: 5%;
-        color: white;
-    }
-
-    .textoNews {
-        padding-left: 0%;
-        color: white;
-    }
-    
-    .textoCorreo {
-        padding-left: 10%;
         color: white;
     }
 

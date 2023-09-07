@@ -10,44 +10,6 @@
         text-align: center;
         color: white;
     }
-
-     .contenedorGuitar {
-        justify-content: space-between;
-        padding-left: 5%;
-        padding-right: 5%;
-        width: 400px;
-        height: 400px;
-    }
-
-     .card {
-         text-align: center;
-         height:100%;
-         margin:3%;
-         padding:3%;
-     }
-
-     .card-title {
-         margin-top: 3%;
-     }
-
-     .contenedorNewsletter {
-        background-color:$color-terciario;
-        width: 100%;
-        padding-top: 1%;
-        padding-bottom: 1.5%;
-        margin-top: 3%;
-    }
-
-    .textoNews {
-        padding-left: 39%;
-        color: white;
-    }
-    
-    .textoCorreo {
-        padding-left: 39%;
-        color: white;
-    }
-
  }
 
  /* CLASES DE PAGINAS DE GUITARRA */
@@ -97,24 +59,8 @@
         text-align: center;
     }
 
-    .contenedorGuitar{
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-    }
-
     .textoVarios {
         padding-left: 5%;
-        color: white;
-    }
-
-    .textoNews {
-        padding-left: 0%;
-        color: white;
-    }
-    
-    .textoCorreo {
-        padding-left: 10%;
         color: white;
     }
 

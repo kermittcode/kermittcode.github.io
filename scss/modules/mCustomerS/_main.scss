@@ -1,24 +1,6 @@
 main {
     background-image: url(.../assets/fondoAboutUs.webp);
 
-     .contenedorNewsletter {
-        background-color:$color-terciario;
-        width: 100%;
-        padding-top: 1%;
-        padding-bottom: 1.5%;
-        margin-top: 3%;
-    }
-
-    .textoNews {
-        padding-left: 39%;
-        color: white;
-    }
-    
-    .textoCorreo {
-        padding-left: 39%;
-        color: white;
-    }
-
  }
 
 .tituloSuperiorCS {
@@ -125,27 +107,11 @@ main {
         color: white;
         text-align: center;
     }
-
-    .contenedorGuitar{
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-    }
-
     .textoVarios {
         padding-left: 5%;
         color: white;
     }
 
-    .textoNews {
-        padding-left: 0%;
-        color: white;
-    }
-    
-    .textoCorreo {
-        padding-left: 10%;
-        color: white;
-    }
 
     .textoCS {
         padding-bottom: 5%;

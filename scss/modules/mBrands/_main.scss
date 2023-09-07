@@ -1,34 +1,17 @@
 main {
     background-image: url(.../assets/fondoAboutUs.webp);
-
-     .contenedorNewsletter {
-        background-color:$color-terciario;
-        width: 100%;
-        padding-top: 1%;
-        padding-bottom: 1.5%;
-        margin-top: 3%;
-    }
-
-    .textoNews {
-        padding-left: 39%;
-        color: white;
-    }
-    
-    .textoCorreo {
-        padding-left: 39%;
-        color: white;
-    }
-
  }
 
 .cardBrands {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5%;
 }
 
 .rowBrands {
+    justify-content: space-between;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 10%;
     padding-left: 10%;
 }
 
@@ -79,21 +62,6 @@ main {
     color:white;
 }
 
-.contenedorGuitar {
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-left: 5%;
-    text-align: center;
-    justify-content: center;
-}
-
- .card {
-     text-align: center;
-     padding-bottom: 10%;
-     height:120%;
-     width: 10%;
- }
-
  .card-title {
      margin-top: 3%;
  }
@@ -117,12 +85,6 @@ main {
         padding-left: 0%;
         color: white;
         text-align: center;
-    }
-
-    .contenedorGuitar{
-        text-align: center;
-        align-items: center;
-        justify-content: center;
     }
 
     .textoVarios {
@@ -157,11 +119,11 @@ main {
         padding-top: 2%;
     }
 
-    .cardBrandsDos {
-        margin-right: 17%;
+    .cardBrands {
+        padding-right: 10%;
         text-align: center;
-        height:80%;
-        width: 80%;
+        height:100%;
+        width: 100%;
         align-items: center;
         text-align: center;
     }
@@ -186,10 +148,9 @@ main {
     }
 
     .cardBrands {
-        margin-left: auto;
-        margin-right: auto;
+        padding-left: 5%;
         margin-top: 5%;
-        padding-top: 10%;
+        padding-bottom: 2%;
     }
 
     .contenedorBrandsAzul {
@@ -197,5 +158,10 @@ main {
         margin-left: 5%;
         margin-right: 5%;
         background-color: #016A92;
+    }
+
+    .rowBrands {
+        padding-left: 10%;
+        padding-bottom: 2%;
     }
 }
