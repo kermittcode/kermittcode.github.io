@@ -11,9 +11,8 @@ header .contenedorHeader {
   background-color: #2B3035;
 }
 header .fotoLogo {
-  border-radius: 50%;
   padding: 1%;
-  object-fit: cover;
+  object-fit: scale-down;
 }
 header .navbar-brand {
   font-size: 2.5rem;
@@ -33,8 +32,8 @@ header .rowHeader {
     background-color: #2B3035;
   }
   .fotoLogo {
-    border-radius: 50%;
     padding: 1%;
+    position: static;
     object-fit: cover;
   }
 }

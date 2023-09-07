@@ -16,10 +16,9 @@ header {
         background-color: $color-secundario;
        }
 
-    .fotoLogo {
-        border-radius: 50%;
+    .fotoLogo { 
         padding: 1%;
-        object-fit: cover;        
+        object-fit:scale-down;        
         }
 
     .navbar-brand {
@@ -43,8 +42,8 @@ header {
     }
 
     .fotoLogo {
-        border-radius: 50%;
         padding: 1%;
+        position: static;
         object-fit: cover;
         }
 
