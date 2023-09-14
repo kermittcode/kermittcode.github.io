@@ -11,8 +11,10 @@ header .contenedorHeader {
   background-color: #2B3035;
 }
 header .fotoLogo {
-  padding: 1%;
+  padding: 1.3%;
   object-fit: scale-down;
+  width: 98%;
+  height: 98%;
 }
 header .navbar-brand {
   font-size: 2.5rem;
@@ -64,7 +66,7 @@ footer {
 
 .textoNews {
   color: white;
-  padding-top: 10%;
+  font-size: 1.7rem;
 }
 
 .textoEnterEmail {
@@ -83,6 +85,16 @@ footer {
   text-decoration: none;
   color: white;
   height: 100%;
+}
+
+.imgFooterUno {
+  width: 90px;
+  height: 90px;
+}
+
+.imgFooterDos {
+  width: 90px;
+  height: 60px;
 }
 
 main {
@@ -299,6 +311,11 @@ main {
   background-color: #016A92;
   border-radius: 0.3rem !important;
   color: white;
+}
+
+.imagenGuitarraAboutUs {
+  width: 100%;
+  height: auto;
 }
 
 @media (max-width: 576px) {
@@ -549,8 +566,14 @@ main {
     margin-top: 5%;
   }
   .textoBuyNow {
+    padding-top: 2%;
     padding-left: 17.5%;
     color: white;
+  }
+  .textoPrice {
+    padding-left: 17.5%;
+    color: white;
+    padding-bottom: 1.8%;
   }
 }
 @media (max-width: 400px) and (max-width: 576px) {
@@ -597,6 +620,11 @@ main {
     padding-left: 0%;
     color: white;
   }
+  .textoPrice {
+    padding-left: 0%;
+    color: white;
+    padding-bottom: 1.8%;
+  }
   .margenGuitar {
     margin-bottom: 5%;
   }
@@ -617,7 +645,7 @@ main {
   }
   .infoGuitarraFender {
     padding-left: 20%;
-    padding-top: 5%;
+    padding-top: 2%;
     color: white;
     font-size: 1.2rem;
     width: 100%;
@@ -627,6 +655,10 @@ main {
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 7%;
+    color: white;
+  }
+  .textoBuyNow {
+    padding-top: 0%;
     color: white;
   }
 }
@@ -652,9 +684,11 @@ main {
 }
 
 .imgGuitarraGibson {
-  margin-left: 5%;
+  margin-left: 3.5%;
   border: solid black 5px;
   position: static;
+  width: 500px;
+  height: 500px;
 }
 
 .infoGuitarraGibson {
@@ -665,8 +699,15 @@ main {
 }
 
 .textoBuyNow {
+  padding-top: 2%;
   padding-left: 17.5%;
   color: white;
+}
+
+.textoPrice {
+  padding-left: 17.5%;
+  color: white;
+  padding-bottom: 1.8%;
 }
 
 @media (max-width: 576px) {
@@ -716,6 +757,11 @@ main {
     padding-left: 0%;
     color: white;
   }
+  .textoPrice {
+    padding-left: 0%;
+    color: white;
+    padding-bottom: 1.8%;
+  }
   .margenGuitar {
     margin-bottom: 5%;
   }
@@ -730,7 +776,7 @@ main {
   }
   .infoGuitarraGibson {
     padding-left: 20%;
-    padding-top: 5%;
+    padding-top: 1%;
     color: white;
     font-size: 1.2rem;
     width: 100%;
@@ -768,6 +814,8 @@ main {
   margin-left: 5%;
   border: solid black 5px;
   position: static;
+  width: 500px;
+  height: 500px;
 }
 
 .infoGuitarraIbanez {
@@ -778,8 +826,15 @@ main {
 }
 
 .textoBuyNow {
+  padding-top: 2%;
   padding-left: 17.5%;
   color: white;
+}
+
+.textoPrice {
+  padding-left: 17.5%;
+  color: white;
+  padding-bottom: 1.8%;
 }
 
 @media (max-width: 576px) {
@@ -823,6 +878,11 @@ main {
   .textoBuyNow {
     padding-left: 0%;
     color: white;
+  }
+  .textoPrice {
+    padding-left: 0%;
+    color: white;
+    padding-bottom: 1.8%;
   }
   .margenGuitar {
     margin-bottom: 5%;
@@ -1040,6 +1100,8 @@ main .rowGuitar {
 main .textoMostSold {
   text-align: center;
   color: white;
+  padding-top: 2%;
+  padding-bottom: 1.5%;
 }
 main .contenedorGuitar {
   text-align: center;
@@ -1183,6 +1245,8 @@ main {
   margin-left: 5%;
   border: solid black 5px;
   position: static;
+  width: 500px;
+  height: 500px;
 }
 
 .infoGuitarraPRS {
@@ -1193,8 +1257,15 @@ main {
 }
 
 .textoBuyNow {
+  padding-top: 2%;
   padding-left: 17.5%;
   color: white;
+}
+
+.textoPrice {
+  padding-left: 17.5%;
+  color: white;
+  padding-bottom: 1.8%;
 }
 
 @media (max-width: 576px) {
@@ -1238,6 +1309,11 @@ main {
   .textoBuyNow {
     padding-left: 0%;
     color: white;
+  }
+  .textoPrice {
+    padding-left: 0%;
+    color: white;
+    padding-bottom: 1.8%;
   }
   .margenGuitar {
     margin-bottom: 5%;

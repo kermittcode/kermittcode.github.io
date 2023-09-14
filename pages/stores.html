@@ -14,7 +14,7 @@
 />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="shortcut icon" href="../assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="../assets/1337guitarslogo.webp" type="image/x-icon">
   <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 
 </head>
@@ -24,8 +24,8 @@
         <div class="contenedorHeader">
             <div class="row rowHeader">
              <!-- Logo main menu -->
-        <div class="fotoLogo col-2">
-            <img src="../assets/1337GuitarsLogo.webp" alt="Logo 1337Guitars" class="fotoLogo"
+        <div class="col-2">
+            <img src="../assets/1337guitarslogo.webp" alt="Logo 1337Guitars" class="fotoLogo"
             width="100%" 
             height="100%"
             />
@@ -71,9 +71,11 @@
       <!-- Caja fondo azul dentro de la caja de fondo blanco -->
     <div class="contenedorStoresAzul">
       <div class="textoStores">
+      <p>
         📍 Welcome to a haven for all things guitar-related! At <strong>1337 Guitars</strong>, we take pride
         in offering a diverse range of sections, each catering to different aspects of your musical journey. Explore our
         specialized sections to find the gear, accessories, and knowledge you need to amplify your passion. 📍
+      </p>
       </div>
     
     <!-- Contenedor del mapa -->
@@ -82,14 +84,8 @@
   <div id="map"></div>
   </div>
   <div>
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5bM6Kn2A7aAFsYA7VyBC1j3Ju6nolfEk&callback=initMap&v=weekly"
-      defer
-      >
-    </script>
+   
     <!DOCTYPE html>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    
     <script>
       /**
        * @license
@@ -160,10 +156,7 @@
   </div>
         </style>
       </head>
-        <script
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCm7r1j1MLXXKtg7BCxV2fdPUmRv4m-xyg&callback=initMap&v=weekly"
-          defer
-        ></script>
+        
     </html>
     </div>
   </div>
@@ -174,7 +167,7 @@
     <!-- Newsletter -->
     <div class="contenedorNewsletter">
       <div class="centered-content">
-          <p style="color: white; font-size: 1.7rem;">Subscribe to our Newsletter!</p>
+        <p class="textoNews">Subscribe to our Newsletter!</p>
           <form action="correo.php" method="POST" enctype="text/plain">
               <label for="email" class="textoEnterEmail">Enter your email</label>
               <input type="email" id="email"/>
@@ -188,22 +181,17 @@
     <!-- Footer -->
     <footer class="footerBar">
       <a href="http://www.instagram.com" target="_blank">
-        <img src="../assets/minimalist-instagram-icon-26-3372645709.webp" alt="Logo IG"
-        width="90px"    
-        height="90px"
+        <img class="imgFooterUno" src="../assets/instagramlogo.webp" alt="Logo IG"
         />
     
         <a href="http://www.facebook.com" target="_blank">
-        <img src="../assets/face.webp" alt="Logo FB"
-        width="90px"    
-        height="90px"
+        <img class="imgFooterUno" src="../assets/face.webp" alt="Logo FB"
         />
     
         <a href="http://www.youtube.com" target="_blank">
-        <img src="../assets/395125-328232108.webp" alt="Logo YT" 
-        width="90px"    
-        height="60px"
-    />
+        <img class="imgFooterDos" src="../assets/youtubelogo.webp" alt="Logo YT" 
+        />
+
         <div>
             <a href="../pages/aboutUs.html" class="textoFooter">
             <h4>About Us</h4>
@@ -220,11 +208,15 @@
   <!-- Script Mapa -->
 
   <body>
+    
     <div id="map"></div>
     <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCm7r1j1MLXXKtg7BCxV2fdPUmRv4m-xyg&callback=initMap&v=weekly"
       defer
     ></script>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    
   </body>
 
   <!-- Script del bootstrap -->

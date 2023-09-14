@@ -25,6 +25,8 @@
     margin-left: 5%;
     border: solid black 5px;
     position:static;
+    width: 500px;
+    height: 500px;
 }
 
 .infoGuitarraPRS{
@@ -35,8 +37,15 @@
 }
 
 .textoBuyNow{
+    padding-top: 2%;
     padding-left: 17.5%;
     color:white;
+}
+
+.textoPrice{
+    padding-left: 17.5%;
+    color:white;
+    padding-bottom: 1.8%;
 }
 
 @media (max-width: 576px){
@@ -88,6 +97,12 @@
     .textoBuyNow{
         padding-left: 0%;
         color:white;	
+    }
+
+    .textoPrice{
+        padding-left: 0%;
+        color:white;
+        padding-bottom: 1.8%;
     }
 
     .margenGuitar {
